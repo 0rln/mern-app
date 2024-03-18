@@ -16,6 +16,7 @@ const app = express()
 
 app.use(express.json())
 //Any request that comes in, it looks whether it has any body to the request and if it does, it will attach it to the request object
+// in the form of a json file
 
 app.use((req, res, next) => {
   console.log(req.path, req.method)

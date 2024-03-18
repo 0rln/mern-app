@@ -14,8 +14,10 @@ router.get('/:id', (req, res) => {
 
 // POST a new workout
 router.post('/', (req, res) => {
+  const {title, load, reps} = req.body;
   res.json({mssg: 'POST a new workout'})
 })
+
 
 // DELETE a workout
 router.delete('/:id', (req, res) => {
