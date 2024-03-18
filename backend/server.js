@@ -28,8 +28,6 @@ app.use('/api/workouts', workoutRoutes)
 //When it goes to the main website, it will look at request and respond with the json msg "welcome to the app"
 
 // connect to db
-
-// connect to db
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     console.log('connected to database')
