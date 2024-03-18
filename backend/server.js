@@ -4,13 +4,19 @@ require('dotenv').config()
 
 const express = require('express')
 const workoutRoutes = require('./routes/workouts')
+const mongoose = require('mongoose')
 //importing the workout routes from the workout.js file
 
 // express app
 const app = express()
 
+
 // middleware
 // middleware is any piece of code that works between the site recieving a request and the site responding to the request
+
+app.use(express.json())
+//Any request that comes in, it looks whether it has any body to the request and if it does, it will attach it to the request object
+
 app.use((req, res, next) => {
   console.log(req.path, req.method)
   next()
@@ -21,7 +27,17 @@ app.use((req, res, next) => {
 app.use('/api/workouts', workoutRoutes) 
 //When it goes to the main website, it will look at request and respond with the json msg "welcome to the app"
 
-// listen for requests
-app.listen(process.env.PORT, () => {
-  console.log('listening on port', process.env.PORT)
-})
+// connect to db
+
+// connect to db
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => {
+    console.log('connected to database')
+    // listen to port
+    app.listen(process.env.PORT, () => {
+      console.log('listening for requests on port', process.env.PORT)
+    })
+  })
+  .catch((err) => {
+    console.log(err)
+  }) 
