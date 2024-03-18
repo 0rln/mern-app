@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 //This middleware will log the path and method of the request to the console
 
 // routes
-app.use('/api/workouts', workoutRoutes)
+app.use('/api/workouts', workoutRoutes) 
 //When it goes to the main website, it will look at request and respond with the json msg "welcome to the app"
 
 // listen for requests
