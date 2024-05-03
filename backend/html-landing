@@ -1,0 +1,1238 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/dNA5ISvnq1a
+-->
+
+<div class="flex flex-col min-h-screen">
+  <header class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <a class="text-2xl font-bold" href="#">
+        Workout Tracker
+      </a>
+      <nav class="space-x-4">
+        <a class="hover:underline" href="#">
+          Login
+        </a>
+        <a class="hover:underline" href="#">
+          Sign Up
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main class="flex-1 py-10 px-6">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Welcome to Workout Tracker</h1>
+        <p class="text-gray-600 mb-8">Easily log your workouts, track your progress, and stay motivated.</p>
+        <div class="flex space-x-4">
+          <a class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" href="#">
+            Sign Up
+          </a>
+          <a class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" href="#">
+            Login
+          </a>
+        </div>
+      </div>
+      <div>
+        <img
+          src="/placeholder.svg"
+          alt="Workout Tracker"
+          width="500"
+          height="500"
+          class="mx-auto"
+          style="aspect-ratio: 500 / 500; object-fit: cover;"
+        />
+      </div>
+    </div>
+  </main>
+  <footer class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Workout Tracker. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+<div class="flex flex-col min-h-screen">
+  <header class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <a class="text-2xl font-bold" href="#">
+        Workout Tracker
+      </a>
+      <nav class="space-x-4">
+        <a class="hover:underline" href="#">
+          Dashboard
+        </a>
+        <a class="hover:underline" href="#">
+          Workouts
+        </a>
+        <a class="hover:underline" href="#">
+          Routines
+        </a>
+        <a class="hover:underline" href="#">
+          Profile
+        </a>
+        <a class="hover:underline" href="#">
+          Logout
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main class="flex-1 py-10 px-6">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Dashboard</h1>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <div class="flex flex-col space-y-1.5 p-6">
+              <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Workouts</h3>
+            </div>
+            <div class="p-6">
+              <div class="text-4xl font-bold">125</div>
+              <p class="text-gray-600">Total workouts</p>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <div class="flex flex-col space-y-1.5 p-6">
+              <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Calories Burned</h3>
+            </div>
+            <div class="p-6">
+              <div class="text-4xl font-bold">12,345</div>
+              <p class="text-gray-600">Total calories burned</p>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <div class="flex flex-col space-y-1.5 p-6">
+              <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Progress</h3>
+            </div>
+            <div class="p-6">
+              <div class="text-4xl font-bold">+15%</div>
+              <p class="text-gray-600">Strength improvement</p>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <div class="flex flex-col space-y-1.5 p-6">
+              <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Streak</h3>
+            </div>
+            <div class="p-6">
+              <div class="text-4xl font-bold">7</div>
+              <p class="text-gray-600">Consecutive days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Recent Workouts</h1>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Chest and Triceps</h3>
+            <p class="text-sm text-muted-foreground">April 15, 2023</p>
+          </div>
+          <div class="p-6">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <h3 class="text-lg font-bold mb-2">Exercises</h3>
+                <ul class="space-y-2">
+                  <li>Bench Press</li>
+                  <li>Triceps Dips</li>
+                  <li>Incline Dumbbell Fly</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold mb-2">Stats</h3>
+                <ul class="space-y-2">
+                  <li>Sets: 3</li>
+                  <li>Reps: 10-12</li>
+                  <li>Weight: 185 lbs</li>
+                  <li>Calories: 450</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Workout Tracker. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+<div class="flex flex-col min-h-screen">
+  <header class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <a class="text-2xl font-bold" href="#">
+        Workout Tracker
+      </a>
+      <nav class="space-x-4">
+        <a class="hover:underline" href="#">
+          Dashboard
+        </a>
+        <a class="hover:underline" href="#">
+          Workouts
+        </a>
+        <a class="hover:underline" href="#">
+          Routines
+        </a>
+        <a class="hover:underline" href="#">
+          Profile
+        </a>
+        <a class="hover:underline" href="#">
+          Logout
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main class="flex-1 py-10 px-6">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Log a Workout</h1>
+        <form class="space-y-4">
+          <div>
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="workout-date"
+            >
+              Date
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="workout-date"
+              required=""
+              type="date"
+            />
+          </div>
+          <div>
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="workout-name"
+            >
+              Workout Name
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="workout-name"
+              required=""
+              type="text"
+            />
+          </div>
+          <div>
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="exercises"
+            >
+              Exercises
+            </label>
+            <textarea
+              class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="exercises"
+              rows="3"
+              required=""
+            ></textarea>
+          </div>
+          <div>
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="sets-reps"
+            >
+              Sets and Reps
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="sets-reps"
+              required=""
+              type="text"
+            />
+          </div>
+          <div>
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="weights"
+            >
+              Weights
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="weights"
+              required=""
+              type="text"
+            />
+          </div>
+          <div>
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="calories"
+            >
+              Calories Burned
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="calories"
+              required=""
+              type="number"
+            />
+          </div>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+            type="submit"
+          >
+            Log Workout
+          </button>
+        </form>
+      </div>
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Workout Routines</h1>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Full Body Routine</h3>
+          </div>
+          <div class="p-6">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <h3 class="text-lg font-bold mb-2">Exercises</h3>
+                <ul class="space-y-2">
+                  <li>Squats</li>
+                  <li>Deadlifts</li>
+                  <li>Bench Press</li>
+                  <li>Pull-ups</li>
+                  <li>Overhead Press</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold mb-2">Sets and Reps</h3>
+                <ul class="space-y-2">
+                  <li>3 sets of 8-10 reps</li>
+                  <li>3 sets of 6-8 reps</li>
+                  <li>3 sets of 8-10 reps</li>
+                  <li>3 sets to failure</li>
+                  <li>3 sets of 8-10 reps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Workout Tracker. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+<div class="flex flex-col min-h-screen">
+  <header class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <a class="text-2xl font-bold" href="#">
+        Workout Tracker
+      </a>
+      <nav class="space-x-4">
+        <a class="hover:underline" href="#">
+          Dashboard
+        </a>
+        <a class="hover:underline" href="#">
+          Workouts
+        </a>
+        <a class="hover:underline" href="#">
+          Routines
+        </a>
+        <a class="hover:underline" href="#">
+          Profile
+        </a>
+        <a class="hover:underline" href="#">
+          Logout
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main class="flex-1 py-10 px-6">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Progress</h1>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Strength Progress</h3>
+          </div>
+          <div class="p-6">
+            <div class="aspect-[9/4]">
+              <div style="width: 100%; height: 100%;">
+                <div style="position: relative;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="515" height="228.875" role="application">
+                    <rect width="515" height="228.875" fill="transparent"></rect>
+                    <g transform="translate(40,10)">
+                      <g>
+                        <line
+                          opacity="1"
+                          x1="0"
+                          x2="0"
+                          y1="0"
+                          y2="178.875"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line
+                          opacity="1"
+                          x1="93"
+                          x2="93"
+                          y1="0"
+                          y2="178.875"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line
+                          opacity="1"
+                          x1="186"
+                          x2="186"
+                          y1="0"
+                          y2="178.875"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line
+                          opacity="1"
+                          x1="279"
+                          x2="279"
+                          y1="0"
+                          y2="178.875"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line
+                          opacity="1"
+                          x1="372"
+                          x2="372"
+                          y1="0"
+                          y2="178.875"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line
+                          opacity="1"
+                          x1="465"
+                          x2="465"
+                          y1="0"
+                          y2="178.875"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                      </g>
+                      <g>
+                        <line
+                          opacity="1"
+                          x1="0"
+                          x2="465"
+                          y1="179"
+                          y2="179"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line
+                          opacity="1"
+                          x1="0"
+                          x2="465"
+                          y1="135"
+                          y2="135"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line opacity="1" x1="0" x2="465" y1="91" y2="91" stroke="#f3f4f6" stroke-width="1"></line>
+                        <line opacity="1" x1="0" x2="465" y1="47" y2="47" stroke="#f3f4f6" stroke-width="1"></line>
+                        <line opacity="1" x1="0" x2="465" y1="4" y2="4" stroke="#f3f4f6" stroke-width="1"></line>
+                      </g>
+                      <g transform="translate(0,178.875)">
+                        <g transform="translate(0,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Jan
+                          </text>
+                        </g>
+                        <g transform="translate(93,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Feb
+                          </text>
+                        </g>
+                        <g transform="translate(186,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Mar
+                          </text>
+                        </g>
+                        <g transform="translate(279,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Apr
+                          </text>
+                        </g>
+                        <g transform="translate(372,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            May
+                          </text>
+                        </g>
+                        <g transform="translate(465,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Jun
+                          </text>
+                        </g>
+                        <line x1="0" x2="465" y1="0" y2="0" style="stroke: transparent; stroke-width: 1;"></line>
+                      </g>
+                      <g transform="translate(0,0)">
+                        <g transform="translate(0,179)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            0
+                          </text>
+                        </g>
+                        <g transform="translate(0,135)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            50
+                          </text>
+                        </g>
+                        <g transform="translate(0,91)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            100
+                          </text>
+                        </g>
+                        <g transform="translate(0,47)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            150
+                          </text>
+                        </g>
+                        <g transform="translate(0,4)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            200
+                          </text>
+                        </g>
+                        <line
+                          x1="0"
+                          x2="0"
+                          y1="0"
+                          y2="178.875"
+                          style="stroke: transparent; stroke-width: 1;"
+                        ></line>
+                      </g>
+                      <path
+                        d="M0,126L93,137L186,24L279,110L372,95L465,0"
+                        fill="none"
+                        stroke-width="2"
+                        stroke="#e11d48"
+                      ></path>
+                      <path
+                        d="M0,141L93,59L186,125L279,52L372,156L465,44"
+                        fill="none"
+                        stroke-width="2"
+                        stroke="#2563eb"
+                      ></path>
+                      <g>
+                        <g transform="translate(465, 0)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#e11d48"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(372, 95)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#e11d48"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(279, 110)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#e11d48"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(186, 24)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#e11d48"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(93, 137)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#e11d48"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(0, 126)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#e11d48"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(465, 44)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#2563eb"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(372, 156)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#2563eb"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(279, 52)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#2563eb"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(186, 125)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#2563eb"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(93, 59)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#2563eb"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                        <g transform="translate(0, 141)" style="pointer-events: none;">
+                          <circle
+                            r="3"
+                            fill="#2563eb"
+                            stroke="transparent"
+                            stroke-width="0"
+                            style="pointer-events: none;"
+                          ></circle>
+                        </g>
+                      </g>
+                      <g>
+                        <rect width="465" height="178.875" fill="red" opacity="0" style="cursor: auto;"></rect>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Analytics</h1>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Calories Burned</h3>
+          </div>
+          <div class="p-6">
+            <div class="aspect-[9/4]">
+              <div style="width: 100%; height: 100%;">
+                <div style="position: relative;">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="515"
+                    height="228.875"
+                    role="application"
+                    aria-label="A bar chart showing data"
+                    focusable="false"
+                  >
+                    <rect width="515" height="228.875" fill="transparent"></rect>
+                    <g transform="translate(40,0)">
+                      <g>
+                        <line
+                          opacity="1"
+                          x1="0"
+                          x2="475"
+                          y1="189"
+                          y2="189"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line
+                          opacity="1"
+                          x1="0"
+                          x2="475"
+                          y1="129"
+                          y2="129"
+                          stroke="#f3f4f6"
+                          stroke-width="1"
+                        ></line>
+                        <line opacity="1" x1="0" x2="475" y1="69" y2="69" stroke="#f3f4f6" stroke-width="1"></line>
+                        <line opacity="1" x1="0" x2="475" y1="8" y2="8" stroke="#f3f4f6" stroke-width="1"></line>
+                      </g>
+                      <g transform="translate(0,188.875)">
+                        <g transform="translate(51,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Jan
+                          </text>
+                        </g>
+                        <g transform="translate(126,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Feb
+                          </text>
+                        </g>
+                        <g transform="translate(201,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Mar
+                          </text>
+                        </g>
+                        <g transform="translate(276,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Apr
+                          </text>
+                        </g>
+                        <g transform="translate(351,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            May
+                          </text>
+                        </g>
+                        <g transform="translate(426,0)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="text-before-edge"
+                            text-anchor="middle"
+                            transform="translate(0,16) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            Jun
+                          </text>
+                        </g>
+                        <line x1="0" x2="475" y1="0" y2="0" style="stroke: transparent; stroke-width: 1;"></line>
+                      </g>
+                      <g transform="translate(0,0)">
+                        <g transform="translate(0,189)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            0
+                          </text>
+                        </g>
+                        <g transform="translate(0,129)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            50
+                          </text>
+                        </g>
+                        <g transform="translate(0,69)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            100
+                          </text>
+                        </g>
+                        <g transform="translate(0,8)" style="opacity: 1;">
+                          <line
+                            x1="0"
+                            x2="0"
+                            y1="0"
+                            y2="0"
+                            style="stroke: rgb(119, 119, 119); stroke-width: 1;"
+                          ></line>
+                          <text
+                            dominant-baseline="central"
+                            text-anchor="end"
+                            transform="translate(-16,0) rotate(0)"
+                            style="font-family: sans-serif; font-size: 11px; fill: rgb(51, 51, 51); outline-width: 0px; outline-color: transparent;"
+                          >
+                            150
+                          </text>
+                        </g>
+                        <line
+                          x1="0"
+                          x2="0"
+                          y1="0"
+                          y2="188.875"
+                          style="stroke: transparent; stroke-width: 1;"
+                        ></line>
+                      </g>
+                      <g transform="translate(24, 55)">
+                        <rect
+                          width="53"
+                          height="134"
+                          rx="0"
+                          ry="0"
+                          fill="#2563eb"
+                          stroke-width="0"
+                          stroke="#2563eb"
+                          focusable="false"
+                        ></rect>
+                      </g>
+                      <g transform="translate(99, 0)">
+                        <rect
+                          width="53"
+                          height="189"
+                          rx="0"
+                          ry="0"
+                          fill="#2563eb"
+                          stroke-width="0"
+                          stroke="#2563eb"
+                          focusable="false"
+                        ></rect>
+                      </g>
+                      <g transform="translate(174, 34)">
+                        <rect
+                          width="53"
+                          height="155"
+                          rx="0"
+                          ry="0"
+                          fill="#2563eb"
+                          stroke-width="0"
+                          stroke="#2563eb"
+                          focusable="false"
+                        ></rect>
+                      </g>
+                      <g transform="translate(249, 8)">
+                        <rect
+                          width="53"
+                          height="181"
+                          rx="0"
+                          ry="0"
+                          fill="#2563eb"
+                          stroke-width="0"
+                          stroke="#2563eb"
+                          focusable="false"
+                        ></rect>
+                      </g>
+                      <g transform="translate(324, 46)">
+                        <rect
+                          width="53"
+                          height="143"
+                          rx="0"
+                          ry="0"
+                          fill="#2563eb"
+                          stroke-width="0"
+                          stroke="#2563eb"
+                          focusable="false"
+                        ></rect>
+                      </g>
+                      <g transform="translate(399, 102)">
+                        <rect
+                          width="53"
+                          height="87"
+                          rx="0"
+                          ry="0"
+                          fill="#2563eb"
+                          stroke-width="0"
+                          stroke="#2563eb"
+                          focusable="false"
+                        ></rect>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Workout Tracker. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+<div class="flex flex-col min-h-screen">
+  <header class="bg-gray-900 text-white py-4 px-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <a class="text-2xl font-bold" href="#">
+        Workout Tracker
+      </a>
+      <nav class="space-x-4">
+        <a class="hover:underline" href="#">
+          Dashboard
+        </a>
+        <a class="hover:underline" href="#">
+          Workouts
+        </a>
+        <a class="hover:underline" href="#">
+          Routines
+        </a>
+        <a class="hover:underline" href="#">
+          Profile
+        </a>
+        <a class="hover:underline" href="#">
+          Logout
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main class="flex-1 py-10 px-6">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <h1 class="text-3xl font-bold mb-4">Profile</h1>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <div class="flex items-center gap-4">
+              <span class="relative flex shrink-0 overflow-hidden rounded-full h-12 w-12">
+                <span class="flex h-full w-full items-center justify-center rounded-full bg-muted">JD</span>
+              </span>
+              <div>
+                <div class="font-bold">John Doe</div>
+                <div class="text-gray-500">johndoe@example.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label
+                  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  for="name"
+                >
+                  Name
+                </label>
+                <input
+                  class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  id="name"
+                  type="text"
+                  value="John Doe"
+                />
+              </div>
+              <div>
+                <label
+                  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  for="email"
+                >
+                  Email
+                </label>
+                <input
+                  class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  id="email"
+                  type="email"
+                  value="johndoe@example.com"
+                />
+              </div>
+              <div>
+                <label
+                  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  for="password"
+                >
+                  Password
+                </label>
+                <input
+                  class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  id="password"
+                  type="password"
+                />
+              </div>
+              <div>
+                <label
+                  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  for="height"
+                >
+                  Height
+                </label>
+                <input
+                  class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  id="height"
+                  type="number"
+                  value="175"
+                />
+              </div>
+              <div>
+                <label
+                  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  for="weight"
+                >
+                  Weight
+                </label>
+                <input
+                  class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  id="weight"
+                  type="number"
+                  value="80"
+                />
+              </div>
+              <div>
+                <label
+                  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  for="goal"
+                >
+                  Goal
+                </label>
+                <button
+                  type="button"
+                  role="combobox"
+                  aria-controls="radix-:r0:"
+                  aria-expanded="false"
+                  aria-autocomplete="none"
+                  dir="ltr"
+                  data-state="closed"
+                  class="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  <span style="pointer-events: none;"></span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="h-4 w-4 opacity-50"
+                    aria-hidden="true"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
